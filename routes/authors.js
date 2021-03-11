@@ -39,7 +39,7 @@ router.post('/', async (req, res) => {
   }
 })
 
-// Show Author's page
+// Show Author's page route
 router.get('/:id', async (req, res) => {
   try {
     const author = await Author.findById(req.params.id);
@@ -53,7 +53,7 @@ router.get('/:id', async (req, res) => {
   }
 })
 
-// Edit Author
+// Edit Author route
 router.get('/:id/edit', async (req, res) => {
   try {
     const author = await Author.findById(req.params.id);
@@ -63,7 +63,7 @@ router.get('/:id/edit', async (req, res) => {
   }
 })
 
-// Update Author
+// Update Author route
 router.put('/:id', async (req, res) => {
   let author;
   try {
@@ -83,7 +83,7 @@ router.put('/:id', async (req, res) => {
   }
 })
 
-// Delete Author
+// Delete Author route
 router.delete('/:id', async (req, res) => {
   let author;
   try {
