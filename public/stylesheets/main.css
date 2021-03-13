@@ -1,0 +1,59 @@
+@import 'shared/fonts.css';
+@import 'shared/buttons.css';
+
+:root {
+  color: #e3f1ff;
+  font-family: 'Oswald';
+}
+
+body {
+  background-color: #00264c;
+}
+
+.main-title {
+  color: #d3e9ff;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.header li {
+  list-style: none;
+}
+
+.header li a {
+  color: #d3e9ff;
+  text-decoration: none;
+  padding: 1rem;
+  font-weight: 200;
+}
+
+.header li a, .main-title {
+  transition-timing-function: ease-in-out;
+  transition: color 100ms;
+}
+
+.header li a:hover, .main-title:hover {
+  color: white;
+}
+
+.pager-header {
+  font-size: 2rem;
+  font-weight: 400;
+}

@@ -1,0 +1,38 @@
+.btn {
+  border: 1px solid #222;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: "Oswald";
+  font-size: 1.1rem;
+  padding: 0.3rem 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 50ms ease-in-out;
+}
+
+.btn-primary {
+  background-color: rgb(173, 211, 255);
+  color: #00264c;
+}
+
+.btn-danger {
+  background-color: rgb(255, 188, 188);
+  color: rgb(143, 0, 0);
+}
+
+.btn-primary:hover {
+  background-color: rgb(104, 169, 245);
+}
+
+.btn-danger:hover {
+  background-color: rgb(255, 146, 146);
+}
+
+.btn-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.btn-row > * {
+  margin-left: 0.5rem;
+}
