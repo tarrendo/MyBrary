@@ -1,6 +1,8 @@
 @import 'shared/fonts.css';
 @import 'shared/buttons.css';
 @import 'shared/form.css';
+@import 'shared/author.css';
+@import 'shared/books.css';
 
 :root {
   color: #e3f1ff;
@@ -13,6 +15,12 @@ body {
 
 .container{
   margin: 0 3rem;
+  justify-content: center;
+}
+
+.inside-container{
+  width: 70%;
+  margin: auto;
 }
 
 .main-title {
@@ -61,4 +69,9 @@ body {
 .pager-header {
   font-size: 2rem;
   font-weight: 400;
+}
+
+.error-message{
+  color: rgb(230, 59, 59);
+  font-size: 1.2rem;
 }

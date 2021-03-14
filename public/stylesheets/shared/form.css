@@ -56,6 +56,12 @@
 .filepond--root{
   font-family: "Oswald";
   margin-bottom: 0;
+  width: 150px;
+}
+
+.filepond--file{
+  justify-self: center;
+  align-self: center;
 }
 
 .filepond--panel-root{
@@ -66,6 +72,8 @@
 .filepond--drop-label {
   color: #eee;
   font-size: inherit;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .form-row-end{

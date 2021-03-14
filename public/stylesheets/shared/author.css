@@ -1,0 +1,12 @@
+.author-row{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+}
+.author-row:first-of-type{
+  padding-top: 0;
+}
+
+.author-name{
+  font-size: 1.5rem;
+}
