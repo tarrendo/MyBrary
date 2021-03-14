@@ -1,5 +1,6 @@
 @import 'shared/fonts.css';
 @import 'shared/buttons.css';
+@import 'shared/form.css';
 
 :root {
   color: #e3f1ff;
@@ -8,6 +9,10 @@
 
 body {
   background-color: #00264c;
+}
+
+.container{
+  margin: 0 3rem;
 }
 
 .main-title {
